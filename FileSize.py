@@ -34,14 +34,6 @@ def report_file_sizes(directory):
     except Exception as e:
         print(f"An error occurred: {e}")
     
-# report_file_sizes(".")
-    
-
-
-
-
-# Problem Statement: Develop a Python script that counts the number of files of each extension type in a directory. For instance, in a directory with five '.txt' files and three '.py' files, the script should report "TXT: 5" and "PY: 3".
-# Expected Outcome: The script should accurately count and display the number of files for each extension type in the specified directory. Handle different cases of file extensions (e.g., '.TXT' and '.txt' should be considered the same).
     
 def count_file_extensions(directory):
     try:
